@@ -1,0 +1,201 @@
+/* ========= Reset styles ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: rgb(82, 82, 82);
+    font-weight: lighter;
+}
+header, footer {
+    background-color: rgb(187, 187, 187);
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header li a {
+    display: inline;
+}
+/* ========= Pseudoraspork styles ========= */
+header .header-top::after, header .header-bottom::after, main article section.service::after, main article section.work, footer article.footer-block { 
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* ========= Header styles ========= */
+header {
+    margin-bottom: 2em;
+    padding: 2em 7em;
+}
+
+/* ========= Header-top styles ========= */
+header section.header-top {
+    width: auto;
+    margin-bottom: 2em;
+}
+header section.header-top section.logo {
+    font-size: 1.5em;
+    float: left;
+    width: calc(100% / 2);
+}
+header section.header-top section.navbar {
+    width: calc(100% / 2);
+    padding: .5em 0;
+    float: right;
+}
+
+section .navbar li a {
+    color:rgb(82, 82, 82);
+    text-decoration: none;
+    padding-left: 0.5em;
+    float: right;
+}
+
+/* ========= Header-bottom styles ========= */
+header section.header-bottom section.intro {
+    float: left;
+    width: 31%;
+    color:rgb(82, 82, 82);
+}
+header section.intro h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+header section.intro p { 
+    line-height: 1.5em;
+}
+
+header section.header-bottom figure {
+    width: 66%;
+    float: right;
+    margin-left: 3%;
+    padding: 4em 12em 4em 3em;
+    background-color: rgb(158, 158, 158);
+}
+header figure figcaption {
+    line-height: 1.5em;
+}
+
+/* ========= Main styles ========= */
+main {
+    margin-bottom: 2em;
+    padding: 0 7em;
+}
+
+/* ========= Main Services styles ========= */
+main article section.services1 {
+    width: calc(100% / 3 - (2em / 3));
+    height: 10em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    float: left;
+    background-color: rgb(187, 187, 187);
+}
+
+main article section.services2 {
+    width: calc(100% / 3 - (2em / 3));
+    height: 10em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    float: left;
+    background-color: rgb(187, 187, 187);
+}
+main article section.services3 {
+    width: calc(100% / 3 - (2em / 3));
+    height: 10em;
+    float: left;
+    margin-bottom: 2em;
+    background-color: rgb(187, 187, 187);
+}
+main article.service .service{
+    text-align: center;
+    height: 10em;
+    line-height: 10em;
+}
+
+/* ========= Main Recent Work styles ========= */
+main article section.recent-work1 {
+    width: calc(100% / 3 - (2em / 3));
+    height: 10em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    float: left;
+    background-color: rgb(187, 187, 187);
+}
+
+main article section.recent-work2 {
+    width: calc(100% / 3 - (2em / 3));
+    height: 10em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    float: left;
+    background-color: rgb(187, 187, 187);
+}
+main article section.recent-work3 {
+    width: calc(100% / 3 - (2em / 3));
+    height: 10em;
+    float: left;
+    margin-bottom: 2em;
+    background-color: rgb(187, 187, 187);
+}
+main article.work .works {
+    text-align: center;
+    height: 10em;
+    line-height: 10em;
+}
+main article.work .recent-work2 {
+    text-align: center;
+    height: 10em;
+    line-height: 10em;
+}
+main article.work {
+    margin-bottom: 2em;
+}
+
+/* ========= Main Twitter Feed styles ========= */
+main section.twitter {
+    padding-left: 2em;
+    min-height: 4em;
+    clear: both;
+    line-height: 4em;
+    background-color: rgb(187, 187, 187);
+}
+
+/* ========= Footer styles ========= */
+footer {
+    width: auto;
+}
+footer article.footer-block {
+    margin: 0 auto;
+}
+footer section.link ul {
+    list-style: none; 
+}
+footer section.link {
+    float: left;  
+    padding: 0 6em; 
+    line-height: 3em;
+    min-height: 3em;
+}
+footer section.link li {
+    padding: 0.5em; 
+    display: inline;
+}
+footer section.link a {
+    color:rgb(82, 82, 82);
+    text-decoration: none;
+}
+footer article.footer-block section.copy {
+    float: right;
+    min-height: 3em;
+    line-height: 3em;
+}
+
+
+ 
